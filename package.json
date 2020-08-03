@@ -8,7 +8,7 @@
     },
     "license": "MIT",
     "scripts": {
-        "dev": "gulp",
+        "start": "gulp",
         "build": "gulp prod --production",
         "build:views": "gulp views --production",
         "build:styles": "gulp styles --production",

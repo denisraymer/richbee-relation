@@ -1,0 +1,14 @@
+.input {
+    font: {
+        family: $font-gilroy-medium;
+        size: 14px;
+    }
+    line-height: 150%;
+    color: #73738D;
+    padding: 12px 15px;
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}

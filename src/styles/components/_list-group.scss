@@ -1,0 +1,32 @@
+.list-group {
+    display: flex;
+
+    &_horizontal-list {
+        flex-direction: row;
+        .list-group__item {
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &_vertical-list {
+        flex-direction: column;
+    }
+
+    &__item {}
+
+    &__icon {
+        margin-right: 6px;
+    }
+
+    &__link {
+        font: {
+            family: $font-gilroy-medium;
+            size: 12px;
+        }
+        color: #73738D;
+        display: flex;
+    }
+}

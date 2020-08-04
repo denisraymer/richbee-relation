@@ -12,14 +12,6 @@
         justify-content: center;
     }
 
-    &__title {
-        font: {
-            family: $font-gilroy-bold;
-            size: 40px;
-        }
-        line-height: 50px;
-    }
-
     &__description {
         font: {
             family: $font-gilroy-medium;

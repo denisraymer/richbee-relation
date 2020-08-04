@@ -1,0 +1,71 @@
+.header {
+    &__content {
+        @include row-flex();
+        padding-top: 70px;
+    }
+
+    &__card {
+        @include col();
+        @include size-lg(12);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        font: {
+            family: $font-gilroy-bold;
+            size: 40px;
+        }
+        line-height: 50px;
+    }
+
+    &__description {
+        font: {
+            family: $font-gilroy-medium;
+            size: 15px;
+        }
+        line-height: 150%;
+        color: #73738D;
+        margin: 25px 0 20px;
+    }
+
+    &__form {
+        border-radius: 50px;
+        position: relative;
+        box-shadow: 0 2.77222px 27.7222px rgba(0, 0, 0, 0.04), 0 0 31.1875px rgba(54, 54, 54, 0.04);
+        margin-bottom: 25px;
+    }
+
+    &__label {
+        height: 100%;
+        display: block;
+        padding: 0 167px 0 20px;
+    }
+
+    &__input {
+        border: 0;
+        border-radius: 50px;
+        width: 100%;
+        height: 42px;
+        padding: 0;
+    }
+
+    &__button-primary {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        top: 0;
+    }
+
+    &__list-group__icon {
+        width: 11px;
+    }
+
+    &__image {
+        @include col();
+        @include size-lg(12);
+        display: flex;
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,39 @@
+.navbar {
+    @include row-flex();
+    padding-top: 20px;
+
+    &__logo {
+        @include col();
+        @include size-md(4);
+        display: flex;
+    }
+
+    &__nav {
+        @include col();
+        @include size-md(20);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__item {
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        font: {
+            family: $font-gilroy-semi-bold;
+            size: 12px;
+        }
+        line-height: 13px;
+    }
+
+    &__button-link {
+        border: 1px solid #1943EF;
+        color: #1943EF;
+        padding: 11px 25px 10px;
+    }
+}

@@ -1,15 +1,25 @@
 .title-large {
+    line-height: 50px;
     font: {
         family: $font-gilroy-bold;
         size: 40px;
     }
-    line-height: 50px;
+    color: #222;
 }
 
 .title-middle {
+    line-height: 30px;
     font: {
         family: $font-gilroy-bold;
         size: 30px;
     }
-    line-height: 30px;
+    color: #222;
+}
+
+.title-small {
+    line-height: 13px;
+    font: {
+        family: $font-gilroy-semi-bold;
+        size: 18px;
+    }
 }

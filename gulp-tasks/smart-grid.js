@@ -7,14 +7,14 @@ gulp.task("smart-grid", (cb) => {
     smartgrid("./src/styles/vendor/import/", {
         outputStyle: "scss",
         filename: "_smart-grid",
-        columns: 12, // number of grid columns
-        offset: "1.875rem", // gutter width - 30px
+        columns: 24, // number of grid columns
+        offset: "0.625rem", // gutter width - 10px
         mobileFirst: true,
         mixinNames: {
             container: "container"
         },
         container: {
-            fields: "0.9375rem" // side fields - 15px
+            fields: "0.313rem" // side fields - 5px
         },
         breakPoints: {
             xs: {

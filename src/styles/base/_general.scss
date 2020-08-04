@@ -10,3 +10,16 @@ h1, h2, h3, h4, h5, h6, ul {
     @include lg(max-width, rem(930));
     @include xl(max-width, rem(1110));
 }
+
+body {
+    font: {
+        family: $font-gilroy-semi-bold;
+        size: 12px;
+    }
+    line-height: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #73738D;
+}

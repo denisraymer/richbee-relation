@@ -1,0 +1,25 @@
+.button {
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background-color: #eef5ff;
+    font: {
+        family: $font-gilroy-semi-bold;
+        size: 12px;
+    }
+    outline: none;
+    cursor: pointer;
+    color: #6e9fe9;
+    display: block;
+    padding: 5px 18px;
+
+    &-link {
+        background-color: transparent;
+        padding: 5px 0 5px 0;
+    }
+
+    &-primary {
+        background-color: #1943EF;
+        color: #fff;
+        padding: 0 40px;
+    }
+}

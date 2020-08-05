@@ -2,7 +2,7 @@ import $ from 'jquery';
 import Swal from 'sweetalert2';
 
 // Event for warning
-$('#registration').on('click', function (event) {
+$('#registration').on('click', function () {
     Swal.fire({
         title: 'В разработке',
         text: 'Даты добавления неизвестна',

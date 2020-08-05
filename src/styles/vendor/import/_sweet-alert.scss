@@ -2,6 +2,8 @@
 
 .swal2-title {
     font-family: $font-gilroy-bold;
+    line-height: 35px;
+    margin-bottom: 0 !important;
 }
 
 .swal2-html-container {
@@ -20,6 +22,19 @@
         size: 12px !important;
     }
     padding: 13px 60px;
+}
+
+.swal2-styled.swal2-cancel {
+    border-radius: 50px !important;
+    border: 1px solid transparent !important;
+    background-color: #aaa !important;
+    outline: none !important;
+    color: #fff;
+    font: {
+        family: $font-gilroy-semi-bold !important;
+        size: 12px !important;
+    }
+    padding: 13px 40px;
 }
 
 // Footer link

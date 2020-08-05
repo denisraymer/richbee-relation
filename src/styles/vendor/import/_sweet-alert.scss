@@ -1,0 +1,23 @@
+@import 'node_modules/sweetalert2/dist/sweetalert2.css';
+
+.swal2-title {
+    font-family: $font-gilroy-bold;
+}
+
+.swal2-html-container {
+    font-family: $font-gilroy-medium;
+}
+
+// button
+.swal2-styled.swal2-confirm {
+    border-radius: 50px !important;
+    border: 1px solid transparent !important;
+    background-color: #1943EF !important;
+    outline: none !important;
+    color: #fff;
+    font: {
+        family: $font-gilroy-semi-bold !important;
+        size: 12px !important;
+    }
+    padding: 13px 60px;
+}

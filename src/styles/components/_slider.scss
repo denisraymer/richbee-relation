@@ -1,10 +1,9 @@
 .slider {
-    border-radius: 10px;
-    max-width: 600px;
-    box-shadow: 0 13.8611px 55.4444px #F2F5FA;
+    max-width: 650px;
     margin: 0 auto;
 
     &__item {
+        max-width: 600px;
         padding: 60px 25px 30px;
         position: relative;
     }

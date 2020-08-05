@@ -9,6 +9,7 @@
         box-shadow: 0 13.8611px 55.4444px #F2F5FA;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 40px 22px;
     }
 
@@ -24,6 +25,6 @@
 
     &__button-primary {
         background-color: #26C296;
-        padding: 15px 40px;
+        padding: 15px 50px;
     }
 }

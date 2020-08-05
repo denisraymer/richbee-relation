@@ -1,0 +1,31 @@
+@import 'node_modules/slick-carousel/slick/slick.scss';
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    .slick-active button {
+        background-color: #26C296;
+        width: 24px;
+    }
+
+    button {
+        border-radius: 50px;
+        border: 1px solid #DBE5F1;
+        background-color: #DBE5F1;
+        width: 8px;
+        height: 8px;
+        font-size: 1px;
+        color: transparent;
+        cursor: pointer;
+        overflow: hidden;
+        display: block;
+        margin: 0 3px;
+
+        &:focus,
+        &:active {
+            outline: none;
+        }
+    }
+}

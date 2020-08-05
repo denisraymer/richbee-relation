@@ -1,6 +1,13 @@
 .customer-feedback {
     @include row-flex();
 
+    &__slider {
+        .slick-list {
+            box-shadow: 0 13.8611px 55.4444px #F2F5FA;
+            padding-top: 50px;
+        }
+    }
+
     &__content {
         @include col();
         @include size-lg(24);
@@ -9,6 +16,6 @@
 
     &__title {
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 }

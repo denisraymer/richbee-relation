@@ -6,6 +6,7 @@ function validateEmail(email) {
     return !emailAddressPattern.test(email);
 }
 
+// Event for checking email address
 $('#checking-mail').on('click', function (event) {
     event.preventDefault();
     const userEmailValue = this.form.userEmail.value;

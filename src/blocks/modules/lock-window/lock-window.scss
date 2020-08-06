@@ -1,0 +1,26 @@
+.lock-window {
+    background-image: linear-gradient(-210deg, #7eaaee 0%, #7eaaee 58%, #8cc4f4 100%);
+    z-index: 1002;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    &__image {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+
+    &__title-small {
+        color: #fff;
+    }
+
+    @media (max-width: 770px) {
+        display: flex;
+    }
+}

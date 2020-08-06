@@ -1,6 +1,6 @@
 .footer-fluid {
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 
 .footer {
@@ -9,10 +9,12 @@
     &__list {
         @include col();
         @include size-xl(24);
+        @include size-lg(24);
+        @include size-md(24);
         display: flex;
         justify-content: space-between;
-        padding: 0 15px;
         margin: 90px 0 100px;
+        padding: 0 15px;
 
         .list-group__item {
             margin-bottom: 12px;
@@ -34,6 +36,8 @@
     &__copyright {
         @include col();
         @include size-xl(24);
+        @include size-lg(24);
+        @include size-md(24);
         padding-bottom: 30px;
     }
 
@@ -50,6 +54,6 @@
             family: $font-gilroy-medium;
             size: 12px;
         }
-        color: #73738D;
+        color: #73738d;
     }
 }

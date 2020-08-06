@@ -3,7 +3,9 @@
 
     &__content {
         @include col();
+        @include size-xl(24);
         @include size-lg(24);
+        @include size-md(24);
         border-radius: 10px;
         background-color: #fff;
         box-shadow: 0 13.8611px 55.4444px #F2F5FA;
@@ -22,5 +24,17 @@
         }
         color: #73738D;
         margin-top: 5px;
+    }
+
+    @media (max-width: 996px) {
+        &__content {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        &__button-success {
+            margin-top: 10px;
+            align-self: flex-end;
+        }
     }
 }

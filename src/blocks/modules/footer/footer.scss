@@ -1,3 +1,8 @@
+.footer-fluid {
+    overflow: hidden;
+    position: relative;
+}
+
 .footer {
     @include row-flex();
 

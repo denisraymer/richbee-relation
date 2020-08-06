@@ -1,7 +1,67 @@
 .parallax-scene {
+    width: 100%;
+    height: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
     top: 0;
+
+    &__layer {
+        border-radius: 50px;
+        overflow: hidden;
+        display: inline-block;
+
+        &-01 {
+            border: 8px solid #64CCE3;
+            width: 70px;
+            height: 70px;
+            left: calc(100% - 70px) !important;
+            top: calc(6% + 70px) !important;
+        }
+
+        &-02 {
+            width: 30px;
+            height: 30px;
+            left: calc(6% - 30px) !important;
+            top: calc(16% + 30px) !important;
+        }
+
+        &-03 {
+            border: 1px solid #F5AC18;
+            width: 50px;
+            height: 50px;
+            padding: 15px;
+            left: calc(15% - 50px) !important;
+            top: calc(26% + 50px) !important;
+        }
+
+        &-04 {
+            width: 40px;
+            height: 40px;
+            left: calc(80% - 40px) !important;
+            top: calc(18% + 40px) !important;
+        }
+
+        &-05 {
+            width: 55px;
+            height: 55px;
+            left: calc(90% - 55px) !important;
+            top: calc(50% + 55px) !important;
+        }
+
+        &-06 {
+            width: 55px;
+            height: 55px;
+            left: calc(3% - 55px) !important;
+            top: calc(58% + 55px) !important;
+        }
+    }
+
+    &__image {
+        border-radius: 50px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }

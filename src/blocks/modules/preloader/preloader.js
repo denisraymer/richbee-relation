@@ -9,6 +9,6 @@ $(window).on('load', function () {
     // Delay for safety net
     setTimeout(function () {
         $preloader.removeClass('preloader_active');
-        $('body').css('overflow', 'auto');
+        $('body').css('overflow-y', 'auto');
     }, 800);
 });

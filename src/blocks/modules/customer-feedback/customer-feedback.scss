@@ -1,3 +1,7 @@
+.customer-feedback-fluid {
+    position: relative;
+}
+
 .customer-feedback {
     @include row-flex();
 

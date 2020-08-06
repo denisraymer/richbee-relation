@@ -37,6 +37,10 @@
     padding: 13px 40px;
 }
 
+.swal2-styled:focus {
+    box-shadow: none !important;
+}
+
 // Footer link
 .swal2-footer a {
     font: {

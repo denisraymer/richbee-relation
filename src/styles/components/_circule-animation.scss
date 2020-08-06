@@ -1,0 +1,20 @@
+.circular-element-scene {
+    position: relative;
+}
+
+.circular-element {
+    animation: circle-animation 2.5s infinite ease-in-out;
+    position: absolute;
+}
+
+@keyframes circle-animation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

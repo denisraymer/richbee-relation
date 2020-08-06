@@ -1,50 +1,70 @@
-<div class="header">
-    @@include("../navbar/navbar.html")
-    <div class="header__content">
-        <div class="header__card">
-            <div class="title-large">
-                Отношения на новом уровне
-            </div>
-            <div class="header__description">
-                The multichannel sales engagement platform which automates personal email outreach, calls, and tasks,
-                while Sales can focus on what really matters - closing deals.
-            </div>
-            <div class="header__form">
-                <form name="checkingEmail">
-                    <label class="header__label">
-                        <input class="input header__input" name="userEmail" placeholder="Email id" type="text">
-                    </label>
-                    <button class="button button-primary header__button-primary" id="checking-mail" type="submit">
-                        Try it for free
-                    </button>
-                </form>
-            </div>
-            <ul class="list-group list-group_horizontal-list">
-                <li class="list-group__item">
+<div class="header-fluid">
+    <div class="container">
+        <div class="header">
+            @@include("../navbar/navbar.html")
+            <div class="header__content">
+                <div class="header__card">
+                    <div class="title-large">
+                        Отношения на новом уровне
+                    </div>
+                    <div class="header__description">
+                        The multichannel sales engagement platform which automates personal email outreach, calls, and
+                        tasks,
+                        while Sales can focus on what really matters - closing deals.
+                    </div>
+                    <div class="header__form">
+                        <form name="checkingEmail">
+                            <label class="header__label">
+                                <input class="input header__input" name="userEmail" placeholder="Email id" type="text">
+                            </label>
+                            <button class="button button-primary header__button-primary" id="checking-mail"
+                                    type="submit">
+                                Try it for free
+                            </button>
+                        </form>
+                    </div>
+                    <ul class="list-group list-group_horizontal-list">
+                        <li class="list-group__item">
                     <span class="list-group__link">
                     <img alt="icon" class="list-group__icon header__list-group__icon"
                          src="./img/sprites/sprite.svg#gray-check-mark">
                         Synced contacts
                     </span>
-                </li>
-                <li class="list-group__item">
+                        </li>
+                        <li class="list-group__item">
                     <span class="list-group__link">
                     <img alt="icon" class="list-group__icon header__list-group__icon"
                          src="./img/sprites/sprite.svg#gray-check-mark">
                         Regular reminders
                     </span>
-                </li>
-                <li class="list-group__item">
+                        </li>
+                        <li class="list-group__item">
                     <span class="list-group__link">
                     <img alt="icon" class="list-group__icon header__list-group__icon"
                          src="./img/sprites/sprite.svg#gray-check-mark">
                         The multichannel
                     </span>
-                </li>
-            </ul>
-        </div>
-        <div class="header__image">
-            <img alt="Presentation phone" src="./img/content/header-presentation-phone.png">
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__image">
+                    <div class="circular-element-scene">
+                        <img alt="icon" class="circular-element" src="./img/sprites/sprite.svg#circle-header-border"
+                             style="top: 6px; left: 8px; z-index: -1;"
+                             width="55">
+                        <img alt="Presentation phone" src="./img/content/header-presentation-phone.png">
+                        <img alt="icon" class="circular-element" src="./img/sprites/sprite.svg#circle-header-filled"
+                             style="bottom: 20px; right: 8px; z-index: -1; animation-duration: 2s;"
+                             width="70">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <img alt="icon" class="circular-element" src="./img/sprites/sprite.svg#circle-header-filled"
+         style="bottom: -80px; left: -80px; animation-duration: 1.8s;"
+         width="127">
+    <img alt="icon" class="circular-element" src="./img/sprites/sprite.svg#circle-header-filled"
+         style="top: -22px; left: 35%; z-index: -1; animation-duration: 3s;"
+         width="60">
 </div>

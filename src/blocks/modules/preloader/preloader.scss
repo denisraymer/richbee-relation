@@ -1,0 +1,34 @@
+$animation-speed: 1s;
+
+.preloader {
+    background-color: #fff;
+    z-index: -1;
+    min-width: 100%;
+    opacity: 0;
+    transition: background-color $animation-speed, opacity $animation-speed, z-index $animation-speed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    &_active {
+        opacity: 1;
+        z-index: 1001;
+        transition: opacity $animation-speed, z-index $animation-speed;
+
+        .preloader__image {
+            opacity: 1;
+            transition: opacity 1s;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        width: 80px;
+        opacity: 0;
+    }
+}

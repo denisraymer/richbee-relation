@@ -12,11 +12,13 @@ h1, h2, h3, h4, h5, h6, ul {
 }
 
 body {
+    overflow: hidden;
     font: {
         family: $font-gilroy-semi-bold;
         size: 12px;
     }
     line-height: 13px;
+    position: relative;
 }
 
 a {

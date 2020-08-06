@@ -2,6 +2,7 @@
     border-radius: 50px;
     border: 1px solid transparent;
     background-color: #eef5ff;
+    transition: background-color .5s, color .5s;
     font: {
         family: $font-gilroy-semi-bold;
         size: 12px;
@@ -15,11 +16,35 @@
     &-link {
         background-color: transparent;
         padding: 5px 0 5px 0;
+
+        &:hover {
+            background-color: #1235cd;
+            transition: background-color .5s, color .5s;
+            color: #fff;
+        }
     }
 
     &-primary {
         background-color: #1943EF;
         color: #fff;
         padding: 0 40px;
+
+        &:hover {
+            background-color: #1235cd;
+            transition: background-color .5s, color .5s;
+            color: #fff;
+        }
+    }
+
+    &-success {
+        background-color: #26C296;
+        color: #fff;
+        padding: 15px 50px;
+
+        &:hover {
+            background-color: #22b48a;
+            transition: background-color .5s, color .5s;
+            color: #fff;
+        }
     }
 }

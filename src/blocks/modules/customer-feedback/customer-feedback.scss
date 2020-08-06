@@ -1,0 +1,26 @@
+.customer-feedback-fluid {
+    position: relative;
+}
+
+.customer-feedback {
+    @include row-flex();
+
+    &__slider {
+        .slick-list {
+            border-radius: 10px;
+            box-shadow: 0 13.8611px 55.4444px #F2F5FA;
+            padding-top: 50px;
+        }
+    }
+
+    &__content {
+        @include col();
+        @include size-lg(24);
+        padding: 130px 0 120px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
